@@ -1,0 +1,24 @@
+.video-card {
+    display: block;
+    width: 200px;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .video-card-inner {
+    padding: 10px;
+  }
+  
+  .video-card-title {
+    margin: 0;
+  }
+  

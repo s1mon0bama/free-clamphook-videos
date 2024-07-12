@@ -1,0 +1,19 @@
+.video-player-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-player-title {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .video-player-page {
+    padding: 10px;
+  }
+}
